@@ -1,12 +1,53 @@
-# React + Vite
+# NGO Donation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web3-powered donation platform connecting donors with verified NGOs through transparent blockchain transactions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Blockchain Transparency**: Track exactly how your donations are used
+- **Wallet Integration**: Connect your crypto wallet for secure transactions
+- **Verified NGO Partners**: Support trusted organizations worldwide
+- **Project Tracking**: Monitor the impact of your contributions
+- **User Dashboard**: Manage your donation history and impact statistics
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React 19 with Vite
+- **Styling**: TailwindCSS 4
+- **Routing**: React Router DOM 7
+- **Wallet Connection**: Web3 integration for cryptocurrency donations
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (latest LTS version recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/ngo-donation-platform.git
+   cd ngo-donation-platform
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Run the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
