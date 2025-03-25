@@ -28,8 +28,8 @@ A modern web3-powered donation platform connecting donors with verified NGOs thr
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/ngo-donation-platform.git
-   cd ngo-donation-platform
+   git clone https://github.com/rahul-004x/donatecrypt.git
+   cd donatecrypt
    ```
 
 2. Install dependencies
