@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 const About = () => {
     const teamMembers = [
@@ -30,6 +31,7 @@ const About = () => {
 
     return (
         <div className="bg-gray-900 text-white min-h-screen">
+            <Navbar />
             {/* Hero Section */}
             <div className="relative bg-blue-900 py-20">
                 <div className="absolute inset-0 opacity-20 bg-pattern"></div>

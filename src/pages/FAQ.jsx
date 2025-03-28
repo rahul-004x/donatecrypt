@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from '../components/Navbar';
 
 const FAQ = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -39,45 +40,48 @@ const FAQ = () => {
     };
 
     return (
-        <div className="bg-gray-900 text-white min-h-screen p-6 md:p-10">
-            <div className="max-w-3xl mx-auto">
-                <h1 className="text-4xl font-bold mb-8">Frequently Asked Questions</h1>
-                <p className="text-xl mb-10">Get answers to the most common questions about our blockchain-based donation platform.</p>
-                
-                <div className="space-y-4">
-                    {faqItems.map((item, index) => (
-                        <div key={index} className="border border-gray-700 rounded-lg overflow-hidden">
-                            <button 
-                                className="w-full p-4 text-left bg-gray-800 hover:bg-gray-700 flex justify-between items-center"
-                                onClick={() => toggleAccordion(index)}
-                            >
-                                <span className="text-lg font-medium">{item.question}</span>
-                                <svg 
-                                    className={`w-5 h-5 transition-transform ${activeIndex === index ? 'transform rotate-180' : ''}`} 
-                                    fill="none" 
-                                    stroke="currentColor" 
-                                    viewBox="0 0 24 24"
+        <div className="bg-gray-900 text-white min-h-screen">
+            <Navbar />
+            <div className="p-6 md:p-10">
+                <div className="max-w-3xl mx-auto">
+                    <h1 className="text-4xl font-bold mb-8">Frequently Asked Questions</h1>
+                    <p className="text-xl mb-10">Get answers to the most common questions about our blockchain-based donation platform.</p>
+                    
+                    <div className="space-y-4">
+                        {faqItems.map((item, index) => (
+                            <div key={index} className="border border-gray-700 rounded-lg overflow-hidden">
+                                <button 
+                                    className="w-full p-4 text-left bg-gray-800 hover:bg-gray-700 flex justify-between items-center"
+                                    onClick={() => toggleAccordion(index)}
                                 >
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                </svg>
-                            </button>
-                            <div 
-                                className={`bg-gray-800 px-4 overflow-hidden transition-all ${
-                                    activeIndex === index ? 'max-h-96 py-4' : 'max-h-0'
-                                }`}
-                            >
-                                <p className="text-gray-300">{item.answer}</p>
+                                    <span className="text-lg font-medium">{item.question}</span>
+                                    <svg 
+                                        className={`w-5 h-5 transition-transform ${activeIndex === index ? 'transform rotate-180' : ''}`} 
+                                        fill="none" 
+                                        stroke="currentColor" 
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                <div 
+                                    className={`bg-gray-800 px-4 overflow-hidden transition-all ${
+                                        activeIndex === index ? 'max-h-96 py-4' : 'max-h-0'
+                                    }`}
+                                >
+                                    <p className="text-gray-300">{item.answer}</p>
+                                </div>
                             </div>
-                        </div>
-                    ))}
-                </div>
-                
-                <div className="mt-12 p-6 bg-gray-800 rounded-lg">
-                    <h2 className="text-2xl font-bold mb-4">Still have questions?</h2>
-                    <p className="mb-4">Can't find the answer you're looking for? Please reach out to our customer support team.</p>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">
-                        Contact Support
-                    </button>
+                        ))}
+                    </div>
+                    
+                    <div className="mt-12 p-6 bg-gray-800 rounded-lg">
+                        <h2 className="text-2xl font-bold mb-4">Still have questions?</h2>
+                        <p className="mb-4">Can't find the answer you're looking for? Please reach out to our customer support team.</p>
+                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">
+                            Contact Support
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

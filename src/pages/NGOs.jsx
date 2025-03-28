@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 const NGOs = () => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -146,6 +147,7 @@ const NGOs = () => {
 
     return (
         <div className="bg-gray-900 text-white min-h-screen">
+            <Navbar />
             {/* Header Section */}
             <div className="bg-gray-800 py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

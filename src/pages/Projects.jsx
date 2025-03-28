@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 const Projects = () => {
     const location = useLocation();
@@ -241,6 +242,7 @@ const Projects = () => {
 
     return (
         <div className="bg-gray-900 text-white min-h-screen">
+            <Navbar />
             {/* Header Section */}
             <div className="bg-gray-800 py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
