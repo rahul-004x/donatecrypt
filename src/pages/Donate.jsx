@@ -150,7 +150,6 @@ const Donate = () => {
 
     return (
         <div className="bg-gray-900 text-white min-h-screen">
-            {/* Header Section */}
             <div className="bg-blue-900 py-16 relative overflow-hidden">
                 <div className="absolute inset-0 opacity-30">
                     <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
