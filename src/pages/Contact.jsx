@@ -96,7 +96,7 @@ const Contact = () => {
                                     <p className="text-gray-300">
                                         123 Blockchain Avenue<br />
                                         Suite 400<br />
-                                        San Francisco, CA 94107
+                                        Faridabad, HR 121005<br />
                                     </p>
                                 </div>
                             </div>

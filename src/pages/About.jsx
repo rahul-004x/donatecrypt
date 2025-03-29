@@ -4,28 +4,28 @@ import Navbar from '../components/Navbar';
 const About = () => {
     const teamMembers = [
         {
-            name: "Alex Johnson",
-            role: "Founder & CEO",
-            bio: "Former fintech executive with 10+ years experience in blockchain technology.",
-            image: "https://randomuser.me/api/portraits/men/1.jpg"
+            name: "Rahul Yadav",
+            role: "Full stack developer",
+            bio: "Expert in React and Node.js with a passion for blockchain technology.",
+            image: ""
         },
         {
-            name: "Sarah Chen",
-            role: "CTO",
-            bio: "Blockchain developer and architect with experience at major cryptocurrency platforms.",
-            image: "https://randomuser.me/api/portraits/women/2.jpg"
+            name: "Vikash Jha",
+            role: "Backend Developer",
+            bio: "Experience in building scalable APIs and smart contracts.",
+            image: ""
         },
         {
-            name: "Michael Okonjo",
-            role: "Head of NGO Relations",
-            bio: "15 years in the humanitarian sector working with international aid organizations.",
-            image: "https://randomuser.me/api/portraits/men/3.jpg"
+            name: "Vikash Kumar",
+            role: "Blockchain Developer",
+            bio: "Blockchain enthusiast with a focus on Ethereum and smart contracts.",
+            image: ""
         },
         {
-            name: "Priya Sharma",
-            role: "Product Manager",
-            bio: "Product specialist focused on creating user-friendly fintech solutions.",
-            image: "https://randomuser.me/api/portraits/women/4.jpg"
+            name: "Prince Bari",
+            role: "Blockchain Developer",
+            bio: "Tech enthusiast with a focus on blockchain and decentralized applications.",
+            image: ""
         }
     ];
 
@@ -52,7 +52,7 @@ const About = () => {
                     <div>
                         <h2 className="text-3xl font-bold mb-6 text-blue-400">Our Story</h2>
                         <p className="mb-4">
-                            Founded in 2023, our platform was born from a simple observation: while blockchain 
+                            Our platform was born from a simple observation: while blockchain 
                             technology was revolutionizing finance, the charitable sector remained mired in 
                             opacity and inefficiency.
                         </p>
@@ -60,10 +60,10 @@ const About = () => {
                             We recognized that blockchain's transparency and security could transform how 
                             donors connect with causes, creating unprecedented trust in charitable giving.
                         </p>
-                        <p>
+                        {/* <p>
                             Today, we're at the forefront of merging Web3 technology with humanitarian impact, 
                             making every donation traceable, secure, and directly impactful.
-                        </p>
+                        </p> */}
                     </div>
                     <div className="bg-gray-800 p-8 rounded-lg shadow-xl">
                         <h3 className="text-2xl font-bold mb-4 text-blue-400">Our Values</h3>
