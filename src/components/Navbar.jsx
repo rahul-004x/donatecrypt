@@ -17,8 +17,8 @@ const Navbar = () => {
     return (
         <nav className="flex justify-between items-center p-6 bg-gray-800 w-full">
             <div className="flex items-center">
-                <img src="https://via.placeholder.com/32" alt="Logo" className="h-8 w-8 mr-2" />
-                <span className="text-xl font-bold text-white">NGO Donations</span>
+                <img src="https://cdn-icons-png.flaticon.com/128/2061/2061398.png" alt="Logo" className="h-8 w-8 mr-2" />
+                <span className="text-xl font-bold text-white">Donatecrypt</span>
             </div>
             
             {/* Desktop Navigation */}
