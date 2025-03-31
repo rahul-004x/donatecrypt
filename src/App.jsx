@@ -8,6 +8,7 @@ import NGOs from './pages/NGOs';
 import Profile from './pages/Profile';
 import Contact from './pages/Contact';
 import Donate from './pages/Donate';
+import ApplyPage from './pages/apply';
 
 import './App.css';
 
@@ -20,6 +21,8 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/ngos" element={<NGOs />} />
+        <Route path="/ngos/apply" element={<ApplyPage />} />
+        <Route path="/apply" element={<ApplyPage />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/donate" element={<Donate />} />
