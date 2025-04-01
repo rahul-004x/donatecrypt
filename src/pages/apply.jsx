@@ -60,8 +60,6 @@ const ApplyPage = () => {
     setIsSubmitting(true);
     
     try {
-      // Here you would implement the actual API call to send the application data
-      // For demonstration, using a timeout to simulate API call
       await new Promise(resolve => setTimeout(resolve, 1500));
       
       console.log('Application submitted:', { type: applicationType, data: formData });
